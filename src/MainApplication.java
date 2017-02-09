@@ -13,6 +13,10 @@ public class MainApplication {
         //display sample2
         System.out.println("Printing out sample 2 " + sample2.toString());
 
+        //create a TempeartureSample instance
+        TemperatureSample ts = new TemperatureSample(-1.5, 9999, "tomorrow's temperature");
+        System.out.println("TemperatureSample: " + ts.toString());
+
 
     }
 }
